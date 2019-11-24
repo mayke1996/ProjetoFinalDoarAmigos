@@ -37,9 +37,7 @@ html, body{
         position: absolute; 
         top: 35%;
         border-color: #504b4b;
-        border-radius: 7px 7px 7px 7px;
-        
-        
+        border-radius: 7px 7px 7px 7px;   
     }
 
     .styleTitleCadatro{
@@ -72,6 +70,20 @@ html, body{
         margin-bottom: 2.5em;
     }
 
+    /* Form Cadastro Animais*/
+
+    .styleFormCadastroAnimais{
+        background-color: white;
+        width: 400px; 
+        height: 850px; 
+        left: 50%; 
+        margin: -130px 0 0 -210px; 
+        padding:10px;
+        position: absolute; 
+        top: 35%;
+        border-color: #504b4b;
+        border-radius: 7px 7px 7px 7px;
+    }
 
     /* Rodapé */
 
@@ -127,6 +139,18 @@ html, body{
             padding: 10px;
             position: absolute; 
             top: 40%;
+            border-radius: 7px 7px 7px 7px;
+        }
+
+        .styleFormCadastroAnimais{
+            background-color: white;
+            width: 300px; 
+            height: 800px; 
+            left: 65%; 
+            margin: -130px 0 0 -210px; 
+            padding: 10px;
+            position: absolute; 
+            top: 35%;
             border-radius: 7px 7px 7px 7px;
         }
 
