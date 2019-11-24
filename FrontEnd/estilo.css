@@ -35,7 +35,7 @@ html, body{
         margin: -130px 0 0 -210px; 
         padding:10px;
         position: absolute; 
-        top: 35%;
+        top: 33%;
         border-color: #504b4b;
         border-radius: 7px 7px 7px 7px;   
     }
@@ -85,11 +85,39 @@ html, body{
         border-radius: 7px 7px 7px 7px;
     }
 
+    /* Tela principal */
+
+    .spaceImgAnimais{
+        max-width: 365px;
+        min-width: 350px;
+        max-height: 350px;
+    }
+
+    .styleTitleAnimais{
+        text-align: center;
+        padding-top: 1em;
+        padding-bottom: 0.5em;
+        font-weight: bold;
+    }
+
+    .styleParagAnimais{
+        padding-top: 1em;
+        text-align: justify;
+    }
+
     /* Rodapé */
 
     .styleFooter{
         background-color: #cccccc !important;
         position: fixed;
+        bottom: 0;
+        left: 0;
+        width: -webkit-fill-available;
+        text-align: center;
+    }
+
+    .styleFooterTelaPrincipal{
+        background-color: #cccccc !important;
         bottom: 0;
         left: 0;
         width: -webkit-fill-available;
@@ -154,8 +182,10 @@ html, body{
             border-radius: 7px 7px 7px 7px;
         }
 
-        .styleTitleCadatro{
-            font-size: 25px;
+        .spaceImgAnimais{
+            max-width: 335px;
+            min-width: 335px;
+            max-height: 300px;
         }
 
         
