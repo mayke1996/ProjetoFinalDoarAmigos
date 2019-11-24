@@ -1,0 +1,155 @@
+html, body{
+        height: 100%;
+        overflow-x: hidden;
+        
+    }
+
+    body{
+        
+        background-color:#e6ffe6 !important;
+        background-attachment: fixed;
+        font-family: Helvetica, Arial, sans-serif;
+        
+    }
+
+
+    /* Barra de Navegação*/
+
+    .styleNavBar{
+        background-color: #cccccc !important;
+    }
+
+    .btnNavBar{
+        border-color: #28a745;
+        color: #28a745;
+        font-weight: bold;
+    }
+
+    /* Form Cadastro */
+
+    .styleFormCadastro{
+        background-color: white;
+        width: 400px; 
+        height: 400px; 
+        left: 50%; 
+        margin: -130px 0 0 -210px; 
+        padding:10px;
+        position: absolute; 
+        top: 35%;
+        border-color: #504b4b;
+        border-radius: 7px 7px 7px 7px;
+        
+        
+    }
+
+    .styleTitleCadatro{
+        text-align: center;
+        color: #28a745;
+    }
+
+    .spaceBtnCadastro{
+        background-color: #28a745;
+        color: white;
+        border-color: #28a745;
+    }
+
+    .spaceBtnCadastro:hover{
+        background-color: #17722c;
+        color: white;
+        border-color: #17722c;
+    }
+
+    /* Form Login */
+
+    .styleTitleLogin{
+        text-align: center;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        color: #28a745;
+    }
+
+    .spaceBtnLogin{
+        margin-bottom: 2.5em;
+    }
+
+
+    /* Rodapé */
+
+    .styleFooter{
+        background-color: #cccccc !important;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: -webkit-fill-available;
+        text-align: center;
+    }
+
+    .spaceRedesSociais{
+        padding-right: 1.5em;
+        margin-bottom: 0.5em;
+    }
+
+    .spaceDevelopment{
+        padding-top: 0.5em;
+    }
+
+    .spaceItensFooter{
+        padding-left: 2em;
+        padding-bottom: 1em;
+    }
+
+
+    /* Media Queries */
+
+    /* xs */
+
+    @media screen and (max-width: 767px){
+        .spaceDevelopment{
+            display: none;
+        }
+
+        .spaceItensFooter{
+            display: inline-block;
+            padding-bottom: 0;
+        }
+
+        .styleFooter{
+            height: 4em;
+            padding-top: 0.3em;
+        }
+
+        .styleFormCadastro{
+            background-color: white;
+            width: 300px; 
+            height: 400px; 
+            left: 65%; 
+            margin: -130px 0 0 -210px; 
+            padding: 10px;
+            position: absolute; 
+            top: 40%;
+            border-radius: 7px 7px 7px 7px;
+        }
+
+        .styleTitleCadatro{
+            font-size: 25px;
+        }
+
+        
+    }
+
+    /* sm */
+    @media screen and (min-width: 768px){
+        
+    }
+
+    /* md */
+    @media screen and (min-width: 992px){
+        
+    }
+
+    /* lg */
+    @media screen and (min-width: 1200px){
+
+    }
+
+    /* Fim media queries */
