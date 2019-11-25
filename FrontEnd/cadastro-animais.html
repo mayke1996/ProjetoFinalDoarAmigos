@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale-1">
+
+    <title>Doa Amigos</title>
+    <link rel="icon" href="imagens/">
+
+    <!-- BootStrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    
+    
+    <nav class="navbar navbar-expand-md navbar-light bg-light styleNavBar">
+        <a class="navbar-brand" href="index.html">DoaAmigos</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> 
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" data-target=".navbar-collapse.show" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-target=".navbar-collapse.show" href="cadastro.html">Cadastre-se</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-target=".navbar-collapse.show" href="cadastro-animais.html">Doar Bichinho</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Pesquise aqui..." aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0 btnNavBar" type="submit" data-toggle="tooltip" data-placement="bottom" title="Clique para pesquisar">Pesquisar</button>
+          </form>
+        </div>
+        
+      </nav>  
+
+      
+
+      <form class="styleFormCadastroAnimais">
+
+        <h2 class="styleTitleCadatro">Cadastro de Bichinho</h2>
+
+        <div class="form-group">
+            <label for="name">Tipo:</label>
+            <select class="form-control">
+                <option value="empty"></option>
+                <option value="Cachorro">Cachorro</option>
+                <option value="Gato">Gato</option>
+                <option value="Pássaro">Pássaro</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Estado:</label>
+            <select name="estados-brasil" class="form-control">
+                <option value="empty"></option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="cidade">Cidade:</label>
+            <input type="text" class="form-control" id="cidade" placeholder="Digite a cidade onde viu o bichinho">
+        </div>
+
+        <div class="form-group">
+          <label for="endereco">Endereço:</label>
+          <input type="text" class="form-control" id="endereco" placeholder="Digite o ultimo endereço que viu o bichinho">      
+        </div>
+
+        <div class="form-group">
+          <label for="numero">Número:</label>
+          <input type="number" class="form-control" id="numero" placeholder="Digite o número do endereço">
+        </div>
+
+        <div class="mb-3 was-validated">
+            <label for="validationTextarea">Alguma observação?</label>
+            <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Digite aqui sua observação" required></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="validatedCustomFile">Clique abaixo adicionar fotos:</label>
+            <input type="file" id="validatedCustomFile" required>
+        </div>
+        
+        <button type="submit" class="btn btn-primary btn-block spaceBtnCadastro">Cadastrar</button>
+      </form>
+
+
+      
+
+
+
+      <footer class="styleFooter">
+
+          <span class="spaceDevelopment">Development by Mayke</span> 
+          <div class="spaceItensFooter">
+            <ul class="nav">
+                <li class="item-rede-social"> <a href="#" class="spaceRedesSociais"><img src="imagens/facebook.png"></a></li>
+                <li class="item-rede-social"> <a href="#" class="spaceRedesSociais"><img src="imagens/twitter.png"></a></li>
+                <li class="item-rede-social"> <a href="#" class="spaceRedesSociais"><img src="imagens/instagram.png"></a></li>
+            </ul>
+          </div>  
+
+      </footer>
+          
+
+</body>
+
+</html>
