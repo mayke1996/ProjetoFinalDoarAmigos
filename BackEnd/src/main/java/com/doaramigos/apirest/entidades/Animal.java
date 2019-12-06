@@ -8,29 +8,29 @@ import javax.persistence.Id;
 
 @Entity
 public class Animal {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
-	
+
 	@Column(nullable = false)
 	private String tipo;
-	
+
 	@Column(nullable = false)
 	private String estado;
-	
+
 	@Column(nullable = false)
-	private String cidade;	
-	
+	private String cidade;
+
 	@Column(nullable = false)
 	private String endereco;
-	
+
 	@Column(nullable = false)
 	private int numero;
-	
+
 	@Column(nullable = false)
 	private String observacao;
-	
+
 	@Column(nullable = false)
 	private int ativo;
 
@@ -97,6 +97,5 @@ public class Animal {
 	public void setAtivo(int ativo) {
 		this.ativo = ativo;
 	}
-	
-	
+
 }

@@ -23,6 +23,7 @@ public class AnimalController {
 	@Autowired
 	private AnimalRepository animalRepository;
 
+	// Método para listar todos os usuarios
 	@RequestMapping(value = "/animal", method = RequestMethod.GET)
 	public List<Animal> listarAnimais() {
 		return animalRepository.findAll();
@@ -38,6 +39,7 @@ public class AnimalController {
 			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
 	}
 
+	// Método para criar novo animal
 	@RequestMapping(value = "/animal", method = RequestMethod.POST)
 	public Animal addAnimal(@Valid @RequestBody Animal animal) {
 		return animalRepository.save(animal);
