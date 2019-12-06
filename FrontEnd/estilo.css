@@ -70,6 +70,19 @@ html, body{
         margin-bottom: 2.5em;
     }
 
+    .styleFormLogin{
+        background-color: white;
+        width: 400px; 
+        height: 400px; 
+        left: 50%; 
+        margin: -130px 0 0 -210px; 
+        padding:10px;
+        position: absolute; 
+        top: 33%;
+        border-color: #504b4b;
+        border-radius: 7px 7px 7px 7px;   
+    }
+
     /* Form Cadastro Animais*/
 
     .styleFormCadastroAnimais{
@@ -93,6 +106,10 @@ html, body{
         max-height: 350px;
     }
 
+    .spaceUltimosAnimais{
+        margin-bottom: 2em;
+    }
+
     .styleTitleAnimais{
         text-align: center;
         padding-top: 1em;
@@ -106,7 +123,13 @@ html, body{
     }
 
     .styleContainerAnimais{
-        
+        margin-top: 1em;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #504b4b;
+        border-radius: 5px 5px 5px 5px;
+        min-height: 480px;
+        padding: 7px 7px 7px 7px;
     }
 
     /* Rodapé */
@@ -165,12 +188,12 @@ html, body{
         .styleFormCadastro{
             background-color: white;
             width: 300px; 
-            height: 400px; 
+            height: 500px; 
             left: 65%; 
             margin: -130px 0 0 -210px; 
             padding: 10px;
             position: absolute; 
-            top: 40%;
+            top: 35%;
             border-radius: 7px 7px 7px 7px;
         }
 
@@ -182,14 +205,31 @@ html, body{
             margin: -130px 0 0 -210px; 
             padding: 10px;
             position: absolute; 
+            top: 30%;
+            border-radius: 7px 7px 7px 7px;
+            margin-bottom: 3em;
+        }
+
+        .spaceImgAnimais{
+            max-width: 310px;
+            min-width: 310px;
+            max-height: 300px;
+        }
+
+        .styleFormLogin{
+            background-color: white;
+            width: 300px; 
+            height: 400px; 
+            left: 65%; 
+            margin: -130px 0 0 -210px; 
+            padding: 10px;
+            position: absolute; 
             top: 35%;
             border-radius: 7px 7px 7px 7px;
         }
 
-        .spaceImgAnimais{
-            max-width: 335px;
-            min-width: 335px;
-            max-height: 300px;
+        .styleFileInput{
+            max-width: 300px;
         }
 
         
@@ -197,7 +237,7 @@ html, body{
 
     /* sm */
     @media screen and (min-width: 768px){
-        
+
     }
 
     /* md */
@@ -207,7 +247,7 @@ html, body{
 
     /* lg */
     @media screen and (min-width: 1200px){
-
+        
     }
 
     /* Fim media queries */
